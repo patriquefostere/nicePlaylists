@@ -5,7 +5,7 @@ del "C:\Users\Surface\Desktop\coding\automatingPlaylistFiles\nice playlist text 
 REM delete pre-existing playlist text files to make the program simpler; there shouldn't be any important text files in this directory
 start /wait "C:\Users\Surface\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\Surface\Desktop\coding\automatingPlaylistFiles\getPlaylistsNum.py"
 REM wait for getPlaylistsNum.py to finish
-start /wait "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AutoHotkey\AutoHotKey.exe" "C:\Users\Surface\Desktop\exportPlaylists.ahk"
+start /wait "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AutoHotkey\AutoHotKey.exe" "C:\Users\Surface\Desktop\coding\automatingPlaylistFiles\exportPlaylists.ahk"
 REM wait for exportPlaylists.ahk to finish
 start /wait "C:\Users\Surface\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\Surface\Desktop\coding\automatingPlaylistFiles\fileNicer.py"
 del "C:\Users\Surface\Desktop\coding\automatingPlaylistFiles\*.txt" /f /q
